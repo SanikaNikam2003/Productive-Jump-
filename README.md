@@ -7,15 +7,16 @@ This was made as a group project for a Programming skills Development Lab(Python
 
 Componenets of the project -
 # Module 1 : The main menu-
-Libraries used - Pygame, importlib
-User defined modules imported- button class, coins class, demo(game), doing(task list)
-Methods created -
-● get_font() : used to set the font style and size
-● play(): to call the demo module and play the game
-● tasks() : to call the doing module and use the tasklist
+Methods created:
+● init(): to initialise all variables of the class
 
- Description - Importlib is used to call other modules during runtime. It has been used to call the main functions of demo and doing(which is the task list module). The pygame library is used to create the interface involving the text displayed and the buttons.
+● update(): to apply underlying image to button
 
+● checkforInput: to check if the coordinates of the mouse are within the bounds of the button’s rectangle. If it is, then it returns the boolean value “True”.
+
+● changeColour(): to change the colour of the text on the button when the mouse hovers over it
+
+The Button class is stored in a user defined button.py module. It’s init() function is used to initialise all the requisite variables. The button is created such that it has an underlying image, and the text written on top of it. If no underlying image is provided, the text is displayed atop a transparent surface. On hovering the mouse over a button object of this class, the text changes colour to show that it has been detected.
 # Module 2 : The to-do list-
 Libraries used - Tkinter , messagebox from tkinter, importlib, openpyxl
 User defined modules imported - coins class
