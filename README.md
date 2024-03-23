@@ -8,23 +8,21 @@ This was made as a group project for a Programming skills Development Lab(Python
 Componenets of the project -
 # Module 1 : The main menu-
 Methods created:
-● init(): to initialise all variables of the class
 
-● update(): to apply underlying image to button
-
-● checkforInput: to check if the coordinates of the mouse are within the bounds of the button’s rectangle. If it is, then it returns the boolean value “True”.
-
-● changeColour(): to change the colour of the text on the button when the mouse hovers over it
+ ● init(): to initialise all variables of the class
+ ● update(): to apply underlying image to button
+ ● checkforInput: to check if the coordinates of the mouse are within the bounds of the button’s rectangle. If it is, then it returns the boolean value “True”.
+ ● changeColour(): to change the colour of the text on the button when the mouse hovers over it
 
 The Button class is stored in a user defined button.py module. It’s init() function is used to initialise all the requisite variables. The button is created such that it has an underlying image, and the text written on top of it. If no underlying image is provided, the text is displayed atop a transparent surface. On hovering the mouse over a button object of this class, the text changes colour to show that it has been detected.
 # Module 2 : The to-do list-
 Libraries used - Tkinter , messagebox from tkinter, importlib, openpyxl
 User defined modules imported - coins class
 Methods created -
-● doing_main()-creates a window and all its components and contains the main loop
-● new_task() - add a task
-● deleteTask() - used to remove a task from the list after its completion. Will also display total coins earned upon completion of a task.
-● goBack() - go back to the main menu
+ ● doing_main()-creates a window and all its components and contains the main loop
+ ● new_task() - add a task
+ ● deleteTask() - used to remove a task from the list after its completion. Will also display total coins earned upon completion of a task.
+ ● goBack() - go back to the main menu
 Description - This module is used to create an interface between the user and their to-do list. The to-do list is stored in an Excel file in the back-end, and using this interface, the user can add and remove tasks. When the user wishes to close the tasklist, they can click on the “Return to menu” button, which will destroy the tasklist window.
 
 # Module 3 : The game-
@@ -39,10 +37,10 @@ Every time we press the game button in the main class, we check if the player ha
 
 # Module 4: The Button class-
 Methods created:
-● init(): to initialise all variables of the class
-● update(): to apply underlying image to button
-● checkforInput: to check if the coordinates of the mouse are within the bounds of the button’s rectangle. If it is, then it returns the boolean value “True”.
-● changeColour(): to change the colour of the text on the button when the mouse hovers over it
+ ● init(): to initialise all variables of the class
+ ● update(): to apply underlying image to button
+ ● checkforInput: to check if the coordinates of the mouse are within the bounds of the button’s rectangle. If it is, then it returns the boolean value “True”.
+ ● changeColour(): to change the colour of the text on the button when the mouse hovers over it
 The Button class is stored in a user defined button.py module. It’s init() function is used to initialise all the requisite variables. The button is created such that it has an underlying image, and the text written on top of it. If no underlying image is provided, the text is displayed atop a transparent surface. On hovering the mouse over a button object of this class, the text changes colour to show that it has been detected.
 
 # Module 5: The coins Tracker-
