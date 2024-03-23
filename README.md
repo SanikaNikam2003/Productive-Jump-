@@ -5,8 +5,8 @@ The task list is built using the user-friendly interface tools provided by the t
 The game is built using the pygame library. We have also used the importlib library to handle the circular imports in the application. The sys library is also used to exit the application. Apart from that, to store the high score and number of coins we have used the file handling concept to read and write updated values into text files in the backend. We have used the openpyxl library to store the tasklist in a .xlsx file in the backend.
 This was made as a group project for a Programming skills Development Lab(Python)
 
-# Componenets of the project -
-Module 1 : The main menu-
+Componenets of the project -
+# Module 1 : The main menu-
 Libraries used - Pygame, importlib
 User defined modules imported- button class, coins class, demo(game), doing(task list)
 Methods created -
@@ -14,7 +14,7 @@ Methods created -
 ● play(): to call the demo module and play the game
 ● tasks() : to call the doing module and use the tasklist
 
-## Description - Importlib is used to call other modules during runtime. It has been used to call the main functions of demo and doing(which is the task list module). The pygame library is used to create the interface involving the text displayed and the buttons.
+ Description - Importlib is used to call other modules during runtime. It has been used to call the main functions of demo and doing(which is the task list module). The pygame library is used to create the interface involving the text displayed and the buttons.
 
 # Module 2 : The to-do list-
 Libraries used - Tkinter , messagebox from tkinter, importlib, openpyxl
@@ -30,7 +30,7 @@ Description - This module is used to create an interface between the user and th
 Libraries used - Pygame, importlib
 Methods created - game_main() - contains entire game , load_high_score(), save_high_score(), display_score(), obstacle_movement(), player_animation(), collisions()
 
-## Description - The game is primarily built by making surfaces and rectangles of the images of- the background, foreground, the player, the obstacles(snail and fly).
+ Description - The game is primarily built by making surfaces and rectangles of the images of- the background, foreground, the player, the obstacles(snail and fly).
 The score is incremented
 
 by using a simple counter variable and the high score is stored in a text file. After each play the score is compared with the file and stored if greater than the high score.
